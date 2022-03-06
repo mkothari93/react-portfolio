@@ -1,17 +1,16 @@
 import React, { useEffect } from "react";
 
-function Nav(props) {
+const Nav = (props) => {
   const { categories = [], setCurrentCategory, currentCategory } = props;
 
   return (
-    <header>
-      <nav>
-        <h1>
+      <nav className="nav-header">
+        <h1 className="nav-title">
           <a href="/">Monika Kothari</a>
         </h1>
-        <ul className="flex-row">
+        
           {categories.map((category) => (
-            <li
+            <p
               className={`mx-1 ${currentCategory.name === category.name &&
                 "navActive"}`}
               key={category.name}
@@ -23,11 +22,9 @@ function Nav(props) {
               >
                 {category.name}
               </span>
-            </li>
+            </p>
           ))}
-        </ul>
       </nav>
-    </header>
   );
 }
 

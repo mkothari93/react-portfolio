@@ -6,18 +6,18 @@ import Linkedin from "../Icons/Linkedin";
 const Footer = () => {
   return (
     <div className="d-flex footer">
-      <h4>&copy;{new Date().getFullYear()} by Monika Kothari </h4>
-      <h4 className="footer-icon" href="https://github.com/mkothari93">
+      <h3 className="m-0">&copy;{new Date().getFullYear()} by Monika Kothari </h3>
+      <a className="footer-icon" href="https://github.com/mkothari93">
         <Github />
-      </h4>
-      <h4 href="mailto:mkothari.1993@gmail.com">
+      </a>
+      <a href="mailto:mkothari.1993@gmail.com">
         
         <Email />
-      </h4>
-      <h4 href="https://www.linkedin.com/in/monika-kothari-5872a891/">
+      </a>
+      <a href="https://www.linkedin.com/in/monika-kothari-5872a891/">
         
         <Linkedin />
-      </h4>
+      </a>
     </div>
   );
 };

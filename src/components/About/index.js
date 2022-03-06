@@ -1,13 +1,12 @@
 import React from "react";
-import coverImage from "../../assets/images/monika.jpg";
+import me from "../../assets/images/monika.jpg";
 
 const About = () => {
   return (
-    <section>
-      <h1>About Me</h1>
-      <img src={coverImage} alt="Photo of Monika Kothari" />
+    <section className="about-main">
+      <img className="about-pic" src={me}/>
       <div>
-        <p>
+        <p className="about-me">
           Hi there! I'm Monika Kothari and welcome to my portfolio! I am a
           chemist turned web developer. I graduated in 2016 with a Bachelor of
           Science in Chemistry and shortly after, I started working in the

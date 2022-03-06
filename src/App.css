@@ -5,7 +5,13 @@
   margin: 0;
   padding: 0;
   font-family: "Mohave", sans-serif;
+  color: #222E50;
 }
+
+/* body {
+  background-image: url("../src/assets/images/background-2.jpg");
+  background-size: 175%;
+} */
 
 .App {
   text-align: center;
@@ -16,13 +22,87 @@
   pointer-events: none;
 }
 
+.nav-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: #222E50;
+  font-size: 1.2rem;
+  background-color: #AFD0BF;
+  padding: 2%;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.nav-title a {
+  font-size: 3rem;
+  text-decoration: none;
+  color: #222E50;
+}
+
+.about-main {
+  background-image: url("../src/assets/images/background-2.jpg");
+  background-size: 175%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5%;
+  align-items: center;
+}
+
+.about-pic {
+  width: 30%;
+  height: auto;
+  border-radius: 10%;
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+.about-me {
+  font-size: 1.5rem;
+  color: aliceblue;
+  padding: 1%;
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin: 5%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.auth-inner {
+  width: 75%;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+
+.btn {
+  width: 100%;
+}
+
 .footer {
   justify-content: space-evenly;
   flex-wrap: wrap;
+  background-color: #AFD0BF;
+  padding: 10px;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  margin-top: 2%;
 }
 
-.footer-icon {
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
