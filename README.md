@@ -33,8 +33,13 @@ No Installation Required.
 ## Usage
 Image of the deployed site:
 
+![portfolio](https://user-images.githubusercontent.com/90233589/156926625-6888cf9d-2db9-4559-8cf8-0a0c7211263f.PNG)
+
 
 Deployed site link: 
+
+https://mkothari-react-portfolio.herokuapp.com/
+
 
 <br>
 
